@@ -27,6 +27,7 @@
 #include "tool-cmd-permit-join.h"
 #include "tool-cmd-list.h"
 #include "tool-cmd-status.h"
+#include "tool-cmd-mfg.h"
 #include "tool-cmd-resume.h"
 #include "tool-cmd-reset.h"
 #include "tool-cmd-begin-low-power.h"
@@ -53,6 +54,11 @@
 		"form", \
 		"Form a new WPAN.", \
 		&tool_cmd_form \
+	}, \
+	{ \
+		"mfg", \
+		"Form a new WPAN.", \
+		&tool_cmd_mfg \
 	}, \
 	{ \
 		"attach", \
